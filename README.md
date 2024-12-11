@@ -19,7 +19,7 @@ Copy the contents of the `scripts` folder to your Aseprite scripts folder.
 <br></br>
 # Scripts
 
-This repo currently contains only a single script but more will be added over time.  See the wiki for additional details.
+This repo currently contains only a single script but more will be added over time.  See the [wiki](https://github.com/ZodmanPerth/aseprite-scripts/wiki) for additional details.
 
 Below is an outline of the scripts that can be used through Aseprite.
 
@@ -47,7 +47,7 @@ Provides a dialog for the user to set/adjust the RGBA colour channels of selecte
 
 To support the scripts a number of modules have been created.  These modules contain additional functionality to ensure script code can focus purely on setup and execution of script features.
 
-See the wiki for more information about each module.
+See the [wiki](https://github.com/ZodmanPerth/aseprite-scripts/wiki) for more information about each module.
 
 
 
