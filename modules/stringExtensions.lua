@@ -23,7 +23,7 @@
 -- print(stringX.dumpTable(dialogData))
 --
 -- USAGE - dumpColourRGBA(colour)
--- Returns a string representing the red, greed, blue, and alpha channels of the passed Colour.
+-- Returns a string representing the red, green, blue, and alpha channels of the passed Colour.
 -- Values are separated by commas.
 -- e.g.
 -- print(stringX.dumpColourRGBA(Color(5,10,15,20))) -- prints "5,10,15,20"
@@ -35,7 +35,7 @@
 -- print(stringX.dumpTable(stringX.dumpColorRGBATable(Color(5,10,15,20)))) -- prints the table containing RGBA and colour value of the Color(5,10,15,20).
 --
 -- USAGE - dumpPointRGBA(point)
--- Returns a string representing the red, greed, blue, and alpha channels of the colour value of 
+-- Returns a string representing the red, green, blue, and alpha channels of the colour value of 
 -- the passed point.  Values are separated by commas.
 -- e.g.
 -- print(stringX.dumpPointRGBA(Point(0,0))) -- prints the RGBA colours of the point at 0,0 separated by commas

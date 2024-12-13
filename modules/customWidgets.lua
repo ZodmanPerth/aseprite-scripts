@@ -3,15 +3,15 @@
 --
 -- USAGE
 --
--- Widgets are painted on a custom canvas on the dialog.  You must consume the onPaint, onMouseMove,
--- onMouseDown, and onMouseUp events of the canvas and call the corresponding functions on this module.
--- You can use the "dialogBinding" function of the binding extensions module to bind these events for you.
+-- Widgets are painted on a custom canvas on the dialog.  You must consume the `onPaint`, `onMouseMove`,
+-- `onMouseDown`, and `onMouseUp` events of the canvas and call the corresponding functions on this module.
+-- You can use the `dialogBinding` function of the binding extensions module to bind these events for you.
 -- 
--- Add widgets to the canvas using the "add.." functions.  Each has their own parameters.
+-- Add widgets to the canvas using the `add..` functions.  Each has their own parameters.
 --
--- "dialog.data" has an issue that prevents adding the state of custom widgets to it in a usable manner
--- (see https://github.com/aseprite/aseprite/issues/4707 for issue description).  To get "dialog.data"
--- that includes the data from this module, call "getDialogData".
+-- `dialog.data` has an issue that prevents adding the state of custom widgets to it in a usable manner
+-- (see https://github.com/aseprite/aseprite/issues/4707 for issue description).  To get `dialog.data`
+-- that includes the data from this module, call `getDialogData`.
 --
 -- WIDGETS
 -- 
@@ -32,7 +32,37 @@
 -- RGBA     - A cluster of 4 toggle buttons labelled "R", "G", "B", and "A" with an "operation" toggle
 --            button underneath.  Toggle state, tooltips, and text on toggles can be defined - use the
 --            functions getRGBAToggleState(), getRGBATooltipText(), and getRGBAToggleText() to get
---            the preset values and adjust accordingly.
+--            the default values and adjust accordingly.
+--
+-- FUNCTIONS
+--
+-- getDialogData
+-- Gets the extended data of the dialog including the data for custom widgets.
+-- `dialog.data` has an issue that prevents it to be used for this purpose with custom widgets.
+-- See https://github.com/aseprite/aseprite/issues/4707.
+--
+-- getRGBAToggleState
+-- The default toggle state of an RGBA widget.  Can be used to create custom configuration to an RGBA button.
+--
+-- getRGBAToggleText
+-- The default text of an RGBA widget.  Can be used to create custom configuration to an RGBA button.
+--
+-- getRGBATooltipText
+-- The default tooltip text of an RGBA widget.  Can be used to create custom configuration to an RGBA button.
+--
+-- EVENT HANDLERS
+--
+-- onPaint
+-- Call this from the onPaint event of the canvas that consumes custom widgets.
+-- 
+-- onMouseMove
+-- Call this from the onMouseMove event of the canvas that consumes custom widgets.
+-- 
+-- onMouseDown
+-- Call this from the onMouseDown event of the canvas that consumes custom widgets.
+-- 
+-- onMouseUp
+-- Call this from the onMouseUp event of the canvas that consumes custom widgets.
 
 
 local ColourChannelButtonWidth = 14

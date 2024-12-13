@@ -133,7 +133,7 @@ local function generateNewColours(value, isRelative)
         local isTransparent = colour.a == 0
         local isModifyColour = not isIgnoreTransparent or not isTransparent
 
-        if isModifyColour then  -- relative adjustment
+        if isModifyColour then
 
             local rgbaData = getRGBAWidgetState()
             local isUseR = rgbaData["r"]
@@ -168,6 +168,11 @@ local function generateNewColours(value, isRelative)
             end
 
             isAnyModified = true
+
+        else -- not isModifyColour
+
+            -- use originalColours
+            newColour = originalColours[point]
 
         end
 
@@ -387,7 +392,7 @@ local function configureDialog()
     -- rgbaTooltipText.r = "Red only"
     -- local rgba = customWidgets.addRGBAWidget(rgbaWidgetName, 49, 15, rgbaToggleState, rgbaToggleText, rgbaTooltipText)
 
-    local rgba = customWidgets.addRGBAWidget(rgbaWidgetName, 49, 15, rgbaTooltipText)
+    local rgba = customWidgets.addRGBAWidget(rgbaWidgetName, 49, 15)
 
     -- Hook custom widget event handlers.
     -- This is where the UI functionality of this script is tied in to the dialog.
@@ -453,7 +458,7 @@ do
     applyColours(originalColours)
 
     -- exit if the user cancelled
-    if not dialogData.ok then return end
+    if not dialogData[OkButtonName] then return end
 
     -- apply the results inside a transaction (to support undo/redo)
     app.transaction("set/adjust rgba", applyResultAsTransaction)

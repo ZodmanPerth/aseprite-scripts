@@ -1,5 +1,6 @@
 -- module with binding functions.
--- expects a global Dialog "dialog" to be defined.
+-- expects a global Dialog `dialog` to be defined.
+-- expects the custom widgets module `customWidgets` to be defined.
 --
 -- BINDINGS
 -- * Dialog to customWidgets extension module
