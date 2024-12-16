@@ -87,7 +87,7 @@ Provides functionality that binds widgets together so their properties automatic
 
 Provides functions for working with strings in Aseprite scripts.
 
-### Features
+### Functions
 
 | Function            | Description                                                                                                    |
 | ------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -110,7 +110,7 @@ Provides functions for working with strings in Aseprite scripts.
 
 Provides extended Lua functionality in Aseprite scripts.
 
-### Features
+### Functions
 
 | Function | Description                                                                      |
 | -------- | -------------------------------------------------------------------------------- |
