@@ -37,7 +37,7 @@ Provides a dialog for the user to set/adjust the RGBA colour channels of selecte
 * The RGBA and operation buttons on the dialog have tooltips that explain the state of the dialog when hovering.
 
 ### Demo
-<img src="assets/screenshots/colour-selected-pixels/demo.gif?v2024-12-08" style="margin-left:20;width:100%;max-width:400">
+<img src="assets/screenshots/colour-selected-pixels/demo.gif?v2024-12-08" width=50% alt="demo of the features of the script">
 
 
 
