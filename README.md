@@ -66,7 +66,7 @@ stringX = dofile("modules/stringExtensions.lua")
 
 
 
-## [Custom Widgets](https://github.com/ZodmanPerth/aseprite-scripts/wiki/-customWidgets-definition)
+## [Custom Widgets](https://github.com/ZodmanPerth/aseprite-scripts/wiki/Custom-widgets-module)
 
 Contains custom widgets that can be used on a canvas in a dialog.  Kudos for the idea goes to the Aseprite team's [Custom Widget Example](https://github.com/aseprite/Aseprite-Script-Examples/blob/main/Custom%20Widgets.lua).
 
@@ -98,7 +98,7 @@ Provides functionality that binds widgets together so their properties automatic
 * [Slider to Number text box](https://github.com/ZodmanPerth/aseprite-scripts/wiki/Binding-extensions-module#slidernumberbinding)
 
 
-## [String Extensions](https://github.com/ZodmanPerth/aseprite-scripts/wiki/String-extensions-module-definition)
+## [String Extensions](https://github.com/ZodmanPerth/aseprite-scripts/wiki/String-extensions-module)
 
 Provides functions for working with strings in Aseprite scripts.
 
