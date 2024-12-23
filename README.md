@@ -72,9 +72,9 @@ Contains custom widgets that can be used on a canvas in a dialog.  Kudos for the
 
 ### Widgets
 * [Label](https://github.com/ZodmanPerth/aseprite-scripts/wiki/Custom-widgets-module#label)
-* [Button]https://github.com/ZodmanPerth/aseprite-scripts/wiki/Custom-widgets-module#button (including toggle variant)
+* [Button](https://github.com/ZodmanPerth/aseprite-scripts/wiki/Custom-widgets-module#button) (including toggle variant)
 * [RGBA](https://github.com/ZodmanPerth/aseprite-scripts/wiki/Custom-widgets-module#rgba) (and operation) button cluster
-* [Tooltip]https://github.com/ZodmanPerth/aseprite-scripts/wiki/Custom-widgets-module#tooltip (though it's not reusable outside the custom widgets provided at present)
+* [Tooltip](https://github.com/ZodmanPerth/aseprite-scripts/wiki/Custom-widgets-module#tooltip) (though it's not reusable outside the custom widgets provided at present)
 
 
 
