@@ -1,3 +1,4 @@
+-- v1.0.0
 -- module with binding functions.
 -- expects a global Dialog `dialog` to be defined.
 -- expects the custom widgets module `customWidgets` to be defined.
