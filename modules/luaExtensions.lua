@@ -1,3 +1,4 @@
+-- v1.0.0
 -- module with lua helper functions
 --
 -- USAGE - clamp(value, min, max)

@@ -1,3 +1,4 @@
+-- v1.0.0
 -- module with custom widgets to a Dialog canvas.
 -- expects a global Dialog "dialog" to be defined.
 --

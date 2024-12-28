@@ -1,3 +1,4 @@
+-- v1.0.0
 -- COLOUR SELECTED WIDGETS
 --
 -- Provides a dialog for the user to set/adjust the RGBA colour channels of selected pixels on image.assets/screenshots/colour-selected

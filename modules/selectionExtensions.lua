@@ -1,3 +1,4 @@
+-- v1.0.0
 -- module with selection functions
 
 -- USAGE - iterateSelection(func(p))
