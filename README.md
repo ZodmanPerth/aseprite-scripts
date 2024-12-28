@@ -17,11 +17,11 @@ This repo contains custom scripts for use in Aseprite.
 1. Copy the `modules` folder to your Aseprite scripts folder.
 1. In Aseprite, scan the scripts folder for new scripts (`File | Scripts | Rescan Scripts Folder`).
 
-> [!TIP]  
-> When using scripts frequently it is recommended to create a shortcut key to them using `Edit | Keyboard Shortcuts`.
-
 **v1.0.0 Installed in folder**  
 <img src="assets/installed.png?v2024-12-29" alt="v1.0.0 Installed in folder">
+
+> [!TIP]  
+> When using scripts frequently it is recommended to create a shortcut key to them using `Edit | Keyboard Shortcuts`.
 
 
 
